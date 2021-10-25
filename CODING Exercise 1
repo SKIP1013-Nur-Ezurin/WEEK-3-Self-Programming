@@ -1,0 +1,25 @@
+package selfProgramming;
+
+public class Addition {
+
+	
+		public static void main(String[] args) {
+			// TODO Auto-generated method stub
+			
+			//combine two number together
+			System.out.println ("24 and 45 concatenated: " +24 + 45);
+			
+			//add two number 
+			System.out.println("24  and 25 added: " + (24 + 45));
+			
+			//quick check 1 :
+			System.out.println("x: " + 25);
+			System.out.println("y: " + (15 + 50));
+			System.out.println("z: " + 300 +50);
+
+		}
+
+	}
+
+	
+
