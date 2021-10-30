@@ -24,3 +24,50 @@ public class Calculator2 {
 	}
 
 }
+
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class SimpleCalculator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//addition 
+		System.out.println("Additional Calculator");
+		Scanner input = new Scanner (System.in);
+		System.out.print("Input the first number:");
+		int  num1= input.nextInt();
+		System.out.print("Input the second number:");
+		int  num2= input.nextInt();
+		int sum = num1 +num2;
+		System.out.println("Sum:" +sum);
+		
+		//division		
+		System.out.println();
+		System.out.println("Division Calculator");
+		System.out.print("Input the first number:");
+		int  a= input.nextInt();
+		System.out.print("Input the second number:");
+		int  b= input.nextInt();
+		int sum1 = a / b;
+		System.out.println("Sum:" +sum1);
+		
+		//multiplication		
+		System.out.println();
+		System.out.println("Multiplication Calculator");
+		System.out.print("Input the first number:");
+		int  c= input.nextInt();
+		System.out.print("Input the second number:");
+		int  d= input.nextInt();
+		int sum2 = d * c;
+		System.out.println("Sum:" +sum2);
+		
+		
+	
+					
+
+	}
+
+}
