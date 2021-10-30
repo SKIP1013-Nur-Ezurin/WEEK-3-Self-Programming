@@ -1,0 +1,32 @@
+package selfProgramming;
+
+public class DataConversion {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//First Method: Assignment Conversion- a value of one type is assigned o a variable of another
+		int dollars = 20;
+		double money = dollars;
+		System.out.println(dollars);
+		System.out.println(money);
+		
+		//Second Method: Promotion - operators in expression convert their operands:
+		//count is converted to a floating point value to perform the division calculation
+		int count = 12;
+		double sum = 490.27;
+		double result;
+		result = sum / count;
+		System.out.println(result);
+		
+		//Third Method: Casting - type is put in parentless in front of the value being converted
+		int total = 50;
+		float result1 = (float) total / 6;
+		System.out.println(result1);
+		
+		
+		
+
+	}
+
+}
