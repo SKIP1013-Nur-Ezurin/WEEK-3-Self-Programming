@@ -1,0 +1,26 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Calculator2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stud
+		Scanner in = new Scanner (System.in);
+		
+		System.out.print("Input first number:");
+		int num1 = in.nextInt();
+		
+		System.out.print("Input second number:");
+		int num2 = in.nextInt();
+		
+		// operation + - * /
+		System.out.println(num1 + "+" + num2 + "=" + (num1 +num2));
+		System.out.println(num1 + "-" + num2 + "=" + (num1 -num2));
+		System.out.println(num1 + "*" + num2 + "=" + (num1 *num2));
+		System.out.println(num1 + "/" + num2 + "=" + (num1 /num2));
+		
+		// remainder of two number
+		System.out.println(num1 + "mod" + num2 + "=" + (num1 %num2));
+
+	}
+
+}
