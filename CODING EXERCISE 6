@@ -43,10 +43,49 @@ public class ComplexArithmeticComputation {
 		System.out.println("exp2 = " + exp2);
 		
 		//Math.log(x)   : natural log
+		double log1  = Math.log(1);
+		System.out.println("log1 = " + log1);
+		double log10 = Math.log(10);
+		System.out.println("log10 = " + log10);
+		
+		double log10_1   = Math.log10(1);
+		System.out.println("log10_1 = " + log10_1);
+		double log10_100 = Math.log10(100);
+		System.out.println("log10_100 = " + log10_100);
+		
 		//Math.sin(x)   :sine
+		double sin = Math.sin(Math.PI);
+		System.out.println("sin = " + sin);
+		
 		//Math.cos(x)   :cosine
+		double cos = Math.cos(Math.PI);
+		System.out.println("cos = " + cos);
+		
 		//Math.tan(x)   :tangent
+		double tan = Math.tan(Math.PI);
+		System.out.println("tan = " + tan);
+		
 		//Math.round(x) :closest integer to x
+		double roundedDown = Math.round(23.445);
+		double roundedUp   = Math.round(23.545);
+		System.out.println("roundedDown= " + roundedDown );
+		System.out.println("roundedUp = " + roundedUp);
+		
+		//Math.ceil() function rounds a floating point value up to the nearest integer value.
+		double ceil = Math.ceil(7.343);
+		System.out.println("ceil = " + ceil);
+		
+		// Math.floor() function rounds a floating point value down to the nearest integer value.
+		double floor = Math.floor(7.343);
+		System.out.println("floor= " + floor);
+		
+		//Math.toDegrees() method converts an angle in radians to degree
+		double degrees = Math.toDegrees(Math.PI);
+		System.out.println("degrees = " + degrees);
+		
+		//Math.toRadians() method converts an angle in degrees to radians.
+		double radians = Math.toRadians(180);
+		System.out.println("radians = " + radians);
 		
 	
 		
